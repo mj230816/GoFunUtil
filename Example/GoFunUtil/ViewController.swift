@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoFunUtil
 
 class ViewController: UIViewController {
 

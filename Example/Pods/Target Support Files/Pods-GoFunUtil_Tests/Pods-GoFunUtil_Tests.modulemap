@@ -1,0 +1,6 @@
+framework module Pods_GoFunUtil_Tests {
+  umbrella header "Pods-GoFunUtil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

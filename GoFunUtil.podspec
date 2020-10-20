@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/mj230816/GoFunUtil.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'GoFunUtil/Classes/**/*'
   
@@ -39,4 +39,18 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # GFDevice
+  s.subspec 'GFDevice' do |device|
+      device.source_files = 'GoFunUtil/Classes/GFDevice/*'
+      device.frameworks = 'UIKit'
+  end
+  
+  s.subspec 'GFUDID' do |udid|
+      udid.source_files = 'GoFunUtil/Classes/GFUDID/*'
+      udid.frameworks = 'UIKit'
+      udid.dependency 'KeychainAccess'
+      udid.dependency 'CryptoSwift', '~> 1.3.2'
+  end
+  
 end

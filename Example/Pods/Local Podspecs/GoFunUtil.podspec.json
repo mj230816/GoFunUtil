@@ -1,0 +1,42 @@
+{
+  "name": "GoFunUtil",
+  "version": "0.1.0",
+  "summary": "A short description of GoFunUtil.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mj230816/GoFunUtil",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mj230816": "ext-songqian@shouqiev.com"
+  },
+  "source": {
+    "git": "https://github.com/mj230816/GoFunUtil.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GoFunUtil/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "GFDevice",
+      "source_files": "GoFunUtil/Classes/GFDevice/*",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "GFUDID",
+      "source_files": "GoFunUtil/Classes/GFUDID/*",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "KeychainAccess": [
+
+        ],
+        "CryptoSwift": [
+          "~> 1.3.2"
+        ]
+      }
+    }
+  ]
+}

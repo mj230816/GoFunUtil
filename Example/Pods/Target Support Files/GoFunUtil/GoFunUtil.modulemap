@@ -1,0 +1,6 @@
+framework module GoFunUtil {
+  umbrella header "GoFunUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}
