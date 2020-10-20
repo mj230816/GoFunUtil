@@ -27,3 +27,4 @@ mj230816, ext-songqian@shouqiev.com
 ## License
 
 GoFunUtil is available under the MIT license. See the LICENSE file for more info.
+# GoFunUtil
