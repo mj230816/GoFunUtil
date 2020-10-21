@@ -2226,37 +2226,6 @@
 			};
 			name = Release;
 		};
-		590F530D7021701C9CAF28A5E8C22D85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A3923C9B0ABE14C39B6FD555A21A4CD /* GoFunUtil.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoFunUtil/GoFunUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoFunUtil/GoFunUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoFunUtil/GoFunUtil.modulemap";
-				PRODUCT_MODULE_NAME = GoFunUtil;
-				PRODUCT_NAME = GoFunUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		67475ECF6EA4AA1F1D52C14235D9F027 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DFF8B76990A6F7A600AB4829FB69E6 /* Nimble-Snapshots.release.xcconfig */;
@@ -2353,38 +2322,6 @@
 			};
 			name = Debug;
 		};
-		90CB88E319B996A8D793D1D7C6AEC9FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF15A8B7C62DAD8461C258D2D2C8027E /* GoFunUtil.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoFunUtil/GoFunUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoFunUtil/GoFunUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoFunUtil/GoFunUtil.modulemap";
-				PRODUCT_MODULE_NAME = GoFunUtil;
-				PRODUCT_NAME = GoFunUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		975668D82DDE64A2AE72C67507830578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1BA158D3A6E9FFFA8B583BF141CE340 /* Nimble-Snapshots.debug.xcconfig */;
@@ -2415,6 +2352,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9C89B543E1C6CAC54FBD5CED1E5E2D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF15A8B7C62DAD8461C258D2D2C8027E /* GoFunUtil.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoFunUtil/GoFunUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoFunUtil/GoFunUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoFunUtil/GoFunUtil.modulemap";
+				PRODUCT_MODULE_NAME = GoFunUtil;
+				PRODUCT_NAME = GoFunUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A84FD708D75417234EFE9D228EF6D99B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2603,6 +2572,37 @@
 			};
 			name = Release;
 		};
+		C81A827CCA3F139D432BA882CE93C89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3923C9B0ABE14C39B6FD555A21A4CD /* GoFunUtil.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoFunUtil/GoFunUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoFunUtil/GoFunUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoFunUtil/GoFunUtil.modulemap";
+				PRODUCT_MODULE_NAME = GoFunUtil;
+				PRODUCT_NAME = GoFunUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D786D4838DDE7FF84FD603B90BD016C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9BE1F5445D235EF74AB62111BFE7A22 /* Quick.release.xcconfig */;
@@ -2745,8 +2745,8 @@
 		EFC87346F3BF3AD53FF9204172948D2D /* Build configuration list for PBXNativeTarget "GoFunUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				590F530D7021701C9CAF28A5E8C22D85 /* Debug */,
-				90CB88E319B996A8D793D1D7C6AEC9FE /* Release */,
+				C81A827CCA3F139D432BA882CE93C89C /* Debug */,
+				9C89B543E1C6CAC54FBD5CED1E5E2D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
